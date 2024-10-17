@@ -1,0 +1,106 @@
+
+ul,
+li {
+  list-style: none;
+  white-space: nowrap;
+}
+
+li {
+  display: inline;
+}
+
+ul {
+  display: flex;
+  overflow-x: auto; /* Permite que se desplace horizontalmente */
+  scroll-behavior: smooth; /* Para un desplazamiento suave */
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Main container */
+
+.main-main-container{
+  width: 100%;
+}
+
+.main-container {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+/* Slider container */
+.slider-container {
+  position: relative;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+}
+
+
+/* dots carrusel */
+.dots-container {
+  display: flex;
+  justify-content: center;
+}
+
+.dot-container-item {
+  margin:  8px  3px;
+  cursor: pointer;
+  font-size: 8px;
+  text-align: center;
+}
+
+div.inactive {
+  color:rgb(75, 73, 73);
+  border-radius: 50%;
+}
+
+
+/* Arrows */
+.leftArrow {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  left: 32px;
+  font-size: 50px;
+  font-weight: 700;
+  color: #fff;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.rightArrow {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  right: 32px;
+  font-size: 50px;
+  font-weight: 700;
+  color: #fff;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.container-images {
+  width: 1280px;
+  height: 464px;
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+}
+
+
+
+.texts{
+  position: absolute;
+}
+
+div.active {
+  color: rgb(172, 164, 164);
+  border-radius: 50%;
+}

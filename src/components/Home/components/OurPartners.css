@@ -1,0 +1,14 @@
+ul,
+li {
+  list-style: none;
+  white-space: nowrap;
+}
+
+
+.logos-container-home{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+

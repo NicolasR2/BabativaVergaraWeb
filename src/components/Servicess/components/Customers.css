@@ -1,0 +1,66 @@
+.ctm-title{
+    background-image: 
+        linear-gradient(to top, rgba(62, 92, 148, 1), rgba(255, 255, 255, 0)), /* Capa blanca */
+        url("../../../assets/img/bgt.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    background-color: rgba(255, 255, 255, 0.4);
+    
+    
+    height: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-logos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 0;
+
+    
+    width: 100%;
+
+}
+
+.ctm-desc3{
+    margin: 0;
+}
+
+.linea{
+    border: solid 1px black;
+    width: 1000px;
+    margin: 0;
+}
+
+.references-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.link-image img{
+    width: auto;
+	transition: .44s all ease;
+	opacity: .5;
+
+    width: 250px;
+    max-height: 300px;
+
+    padding:1.4rem ;
+}
+
+.link-image:hover img{
+	opacity: 1;
+}
+
+
+.section-pasados{
+    height: 25rem;
+}
