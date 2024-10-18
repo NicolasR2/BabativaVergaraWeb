@@ -50,7 +50,7 @@ function HeaderVista() {
         {links.map(x => (
           <Link to={x.href} key={x.name}>{x.name}</Link>
         ))}
-        <Link to={'/contact'} className='contactenos-part'> Contactenos </Link>
+        
       </div>
     </div>
   );

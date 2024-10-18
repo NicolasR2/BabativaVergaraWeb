@@ -24,12 +24,12 @@ function App() {
 
         {/*Servicios*/}
         <Route path="/servicios/DerLaboral" element={<DerLaboral/>}/>
-        <Route path="DerTributario" element={<DerTributario/>}/>
-        <Route path="AsesJuridicas" element={<AsesJuridicas/>}/>
-        <Route path="AdminCobro" element={<AdminCobro/>}/>
-        <Route path="PrevResolucion" element={<PrevResolucion/>}/>
-        <Route path="Superintenl" element={<Superinten/>}/>
-        <Route path="DerechoAdmin" element={<DerechoAdmin/>}/>
+        <Route path="/servicios/DerTributario" element={<DerTributario/>}/>
+        <Route path="/servicios/AsesJuridicas" element={<AsesJuridicas/>}/>
+        <Route path="/servicios/AdminCobro" element={<AdminCobro/>}/>
+        <Route path="/servicios/PrevResolucion" element={<PrevResolucion/>}/>
+        <Route path="/servicios/Superintenl" element={<Superinten/>}/>
+        <Route path="/servicios/DerechoAdmin" element={<DerechoAdmin/>}/>
     </Routes>
     </div>
   )

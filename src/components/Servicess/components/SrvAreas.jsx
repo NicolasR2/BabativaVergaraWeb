@@ -27,18 +27,18 @@ function SrvAreas() {
     const groupedServices = {
       "Asesoramiento Legal": [
         { id: 'DerLaboral', title: "Derecho Laboral" },
-        { id: 2, title: "Derecho Tributario" },
-        { id: 3, title: "Asesorías Jurídicas" }
+        { id: 'DerTributario', title: "Derecho Tributario" },
+        { id: 'AsesJuridicas', title: "Asesorías Jurídicas" }
       ],
       "Gestión y Administración": [
-        { id: 4, title: "Administración y Cobro de Cartera" }
+        { id: 'AdminCobro', title: "Administración y Cobro de Cartera" }
       ],
       "Resolución de Conflictos": [
-        { id: 5, title: "Prevención y Resolución de Controversias" }
+        { id: 'PrevResolucion', title: "Prevención y Resolución de Controversias" }
       ],
       "Regulación y Cumplimiento": [
-        { id: 6, title: "Superintendencias" },
-        { id: 7, title: "Derecho Administrativo" }
+        { id: 'Superintenl', title: "Superintendencias" },
+        { id: 'DerechoAdmin', title: "Derecho Administrativo" }
       ]
     };
   
