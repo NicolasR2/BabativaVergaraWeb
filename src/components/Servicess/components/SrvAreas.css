@@ -1,28 +1,67 @@
-.areas .A{
+/* Contenedor principal */
+.container-areas {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 0;
+}
+
+/* Estilo para los contenedores de las áreas */
+.areas {
+    width: 100%;
+}
+
+.areas .A, .areas .B {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
+    margin-bottom: ;
 }
 
-.areas .B{
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
+.areas .A {
+    background-color: #f8f8f8;
+}
+
+.areas .B {
     background-color: rgb(228, 195, 195);
 }
 
-.areas{
+/* Contenedor para la lista de servicios */
+.areas-container {
+    display: flex;
+    justify-content: flex-start; /* Alinea los elementos hacia la izquierda */
+    gap: 5px; /* Espaciado controlado entre los elementos */
+    flex-wrap: wrap; /* Permite que los enlaces se envuelvan si es necesario */
     width: 100%;
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
-.areas-container{
-    display: flex;
-    flex-direction: column;
+/* Estilo para los elementos de la lista */
+.area-item {
+    margin: 0% 8%; /* Sin margen, ya que 'gap' controlará el espaciado */
 }
 
-.container-areas{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+/* Estilo para los enlaces */
+.area-link {
+    display: block;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #e0e0e0;
+    border: 2px solid #333;
+    border-radius: 5px;
+    color: #333;
+    font-size: 16px;
+    transition: background-color 0.3s, color 0.3s;
+    width: 140px; /* Ancho ligeramente reducido */
+}
+
+/* Efecto hover para los enlaces */
+.area-link:hover {
+    background-color: #333;
+    color: white;
 }

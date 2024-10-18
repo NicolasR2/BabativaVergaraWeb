@@ -43,21 +43,27 @@ function SrvAreas() {
     };
   
     return (
-      <div className='container-areas'>
+      
+        <div className='container-areas'>
           <div>
-              <p areas-title title>Áreas de práctica</p>
+            <h1 className='areas-title'>Áreas de práctica</h1>
           </div>
           <div className='areas'>
-              <div className='Areas-1 A'>
-                  <h2>Asesoramiento Legal</h2>
-                  <ul className='areas-container'>
-                      {groupedServices["Asesoramiento Legal"].map(service => (
-                        <li key={service.id}>
-                          <Link to={`/servicios/${service.id}`}>{service.title}</Link>
-                        </li>
-                      ))}
-                  </ul>
-              </div>
+            <div className='Areas-1 A'>
+              <h2>Asesoramiento Legal</h2>
+              <ul className='areas-container'>
+                {groupedServices["Asesoramiento Legal"].map(service => (
+                  <li key={service.id} className="area-item">
+                    <Link to={`/servicios/${service.id}`} className="area-link">
+                      {service.title}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+  
+
+
 
               <div className='Areas-2 B'>
                   <h2>Gestión y Administración</h2>
