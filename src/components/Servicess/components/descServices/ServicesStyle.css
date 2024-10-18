@@ -1,0 +1,54 @@
+.srv-intro{
+    background-image: 
+        linear-gradient(to top, rgba(62, 92, 148, 1), rgba(255, 255, 255, 0)), /* Capa blanca */
+        url("../../../../assets/img/DerechoLaboral.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    background-color: rgba(255, 255, 255, 0.4);
+    
+    
+    height: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.srv-txt-intro{
+    padding: 0;
+    max-width: 50rem;
+    text-align: center;
+    padding: 2rem;
+}
+
+.srv-txt-intro-container{
+    display: flex;
+    
+    justify-content: center;
+
+}
+.srv-what-is-container{
+    display: grid;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    justify-content: center;
+}
+
+.srv-what-is-h2{
+    margin: 0;
+    padding-top: 1rem;
+    padding-left: 4rem;
+}
+
+.srv-what-is-p{
+    max-width: 45rem;
+    padding-left: 8rem;
+    padding-top: 1.4rem;
+    padding-bottom: 2.4rem;
+}
+
+.linea-srv{
+    border: solid 2px #7AA37A;
+    max-width: 120px;
+    margin-left: 4rem;
+}
