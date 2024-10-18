@@ -5,6 +5,7 @@ import Home from './components/Home/Home'
 
 import Header from './components/Header/Header'
 import Services from './components/Servicess/Services'
+import Nosotross from './components/Nosotros/Nosotross'
 import DerLaboral from './components/Servicess/components/descServices/DerLaboral'
 import DerTributario from './components/Servicess/components/descServices/DerTributario'
 import AsesJuridicas from './components/Servicess/components/descServices/AsesJuridicas'
@@ -21,6 +22,7 @@ function App() {
     <Routes>
         <Route path="/" element={<Home/>} />
         <Route path="Services" element={<Services/>} />
+        <Route path="/About" element={<Nosotross/>} />
 
         {/*Servicios*/}
         <Route path="/servicios/DerLaboral" element={<DerLaboral/>}/>
