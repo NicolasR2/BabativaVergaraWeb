@@ -10,23 +10,29 @@
 /* Estilo para los contenedores de las áreas */
 .areas {
     width: 100%;
+    flex-wrap: wrap;
 }
 
 .areas .A, .areas .B {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
-    margin-bottom: ;
+    margin-bottom: 20px;
+    
 }
 
 .areas .A {
     background-color: #f8f8f8;
+    justify-content: flex-end; /* Centra a la derecha */
+    margin-left: auto; /* Empuja el contenedor hacia la derecha */
 }
 
 .areas .B {
     background-color: rgb(228, 195, 195);
+    justify-content: flex-start; /* Centra a la izquierda */
+    margin-right: auto; /* Empuja el contenedor hacia la izquierda */
 }
+
 
 /* Contenedor para la lista de servicios */
 .areas-container {
@@ -47,7 +53,7 @@
 
 /* Estilo para los enlaces */
 .area-link {
-    display: block;
+    display: inline-block; /* Permite que el ancho se ajuste al contenido */
     padding: 10px 15px;
     text-align: center;
     text-decoration: none;
@@ -57,8 +63,8 @@
     color: #333;
     font-size: 16px;
     transition: background-color 0.3s, color 0.3s;
-    width: 140px; /* Ancho ligeramente reducido */
 }
+
 
 /* Efecto hover para los enlaces */
 .area-link:hover {

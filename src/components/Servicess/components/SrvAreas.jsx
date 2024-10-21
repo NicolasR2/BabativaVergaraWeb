@@ -69,8 +69,8 @@ function SrvAreas() {
                   <h2>Gestión y Administración</h2>
                   <ul className='areas-container'>
                       {groupedServices["Gestión y Administración"].map(service => (
-                        <li key={service.id}>
-                          <Link to={`/servicios/${service.id}`}>{service.title}</Link>
+                        <li key={service.id} className="area-item">
+                          <Link to={`/servicios/${service.id}`} className="area-link">{service.title}</Link>
                         </li>
                       ))}
                   </ul>
@@ -80,8 +80,8 @@ function SrvAreas() {
                   <h2>Resolución de Conflictos</h2>
                   <ul className='areas-container'>
                       {groupedServices["Resolución de Conflictos"].map(service => (
-                        <li key={service.id}>
-                          <Link to={`/servicios/${service.id}`}>{service.title}</Link>
+                        <li key={service.id} className="area-item">
+                          <Link to={`/servicios/${service.id}`}className="area-link">{service.title}</Link>
                         </li>
                       ))}
                   </ul>
@@ -91,8 +91,8 @@ function SrvAreas() {
                   <h2>Regulación y Cumplimiento</h2>
                   <ul className='areas-container'>
                       {groupedServices["Regulación y Cumplimiento"].map(service => (
-                        <li key={service.id}>
-                          <Link to={`/servicios/${service.id}`}>{service.title}</Link>
+                        <li key={service.id}className="area-item">
+                          <Link to={`/servicios/${service.id}`}className="area-link">{service.title}</Link>
                         </li>
                       ))}
                   </ul>
