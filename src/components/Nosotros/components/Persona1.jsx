@@ -1,10 +1,12 @@
 import React from 'react'
 import "../../Fonts.css"
 import "../../Home/components/FindUs.css"
+import './estilosNosotros.css'
+
 
 function Persona1() {
   return (
-    <div >
+    <div className="fu-container">
       <div className='fu-text'>
       <h1 className='fu-title'> Manuel Esteban Ruiz </h1>
       <a className='fu-street'> Especialista en derecho judicial</a>

@@ -10,28 +10,55 @@
 /* Estilo para los contenedores de las áreas */
 .areas {
     width: 100%;
-    flex-wrap: wrap;
+    /*display: flex;*/
+    flex-direction: column;
+    display: inline-block;
+    white-space: nowrap ;
+    
+    
 }
 
 .areas .A, .areas .B {
     display: flex;
-    flex-direction: row;
     align-items: center;
-    margin-bottom: 20px;
-    
+    margin-bottom: 0.6%;
+    padding: 20px 30px;
 }
 
 .areas .A {
     background-color: #f8f8f8;
-    justify-content: flex-end; /* Centra a la derecha */
-    margin-left: auto; /* Empuja el contenedor hacia la derecha */
+    justify-content: flex-end; /* Alinea a la derecha */
+    text-align: right; /* Asegura que el texto se alinee a la derecha */
 }
 
 .areas .B {
-    background-color: rgb(228, 195, 195);
-    justify-content: flex-start; /* Centra a la izquierda */
-    margin-right: auto; /* Empuja el contenedor hacia la izquierda */
+    background-color: rgb(179, 200, 231);
+    justify-content: flex-start; /* Alinea a la izquierda */
+    text-align: left; /* Asegura que el texto se alinee a la izquierda */
 }
+
+.area-link {
+    display: inline-block; /* Asegura que el ancho se ajuste al contenido */
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #e0e0e0;
+    border: 2px solid #333;
+    border-radius: 5px;
+    color: #333;
+    font-size: 16px;
+    transition: background-color 0.3s, color 0.3s;
+    white-space: nowrap; /* Evita que el texto se divida en varias líneas */
+}
+
+.areas .areas-container {
+    display: flex;
+    justify-content: center; /* Centra las cajas de links dentro del espacio disponible */
+    gap: 15px; /* Espacio entre los enlaces */
+    flex-wrap: nowrap; /* Impide que los elementos se envuelvan en nuevas líneas */
+}
+
+
 
 
 /* Contenedor para la lista de servicios */
@@ -51,19 +78,7 @@
     margin: 0% 8%; /* Sin margen, ya que 'gap' controlará el espaciado */
 }
 
-/* Estilo para los enlaces */
-.area-link {
-    display: inline-block; /* Permite que el ancho se ajuste al contenido */
-    padding: 10px 15px;
-    text-align: center;
-    text-decoration: none;
-    background-color: #e0e0e0;
-    border: 2px solid #333;
-    border-radius: 5px;
-    color: #333;
-    font-size: 16px;
-    transition: background-color 0.3s, color 0.3s;
-}
+
 
 
 /* Efecto hover para los enlaces */

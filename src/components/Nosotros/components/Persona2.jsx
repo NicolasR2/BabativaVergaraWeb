@@ -4,7 +4,7 @@ import "../../Home/components/FindUs.css"
 
 function Persona2() {
   return (
-    <div >
+    <div className="fu-container">
       <div className='fu-text'>
       <h1 className='fu-title'> Carlos Antnio Rodriguez </h1>
       <a className='fu-street'> Especialista en derecho penal  </a>

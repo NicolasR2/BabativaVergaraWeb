@@ -15,3 +15,10 @@
     justify-content: center;
     align-items: center;
 }
+
+.fu-container {
+    margin: 40px 0; /* Margen vertical para el contenedor */
+    padding: 10px; /* Espaciado interno */
+    background-color: #f4f4f4; /* Fondo suave para destacar el bloque de texto */
+    border-radius: 8px; /* Bordes redondeados */
+  }

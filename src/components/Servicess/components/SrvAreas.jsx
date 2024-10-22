@@ -66,7 +66,7 @@ function SrvAreas() {
 
 
               <div className='Areas-2 B'>
-                  <h2>Gestión y Administración</h2>
+                  
                   <ul className='areas-container'>
                       {groupedServices["Gestión y Administración"].map(service => (
                         <li key={service.id} className="area-item">
@@ -74,6 +74,7 @@ function SrvAreas() {
                         </li>
                       ))}
                   </ul>
+                  <h2>Gestión y Administración</h2>
               </div>
 
               <div className='Areas-3 A'>
@@ -88,7 +89,7 @@ function SrvAreas() {
               </div>
 
               <div className='Areas-4 B'>
-                  <h2>Regulación y Cumplimiento</h2>
+                  
                   <ul className='areas-container'>
                       {groupedServices["Regulación y Cumplimiento"].map(service => (
                         <li key={service.id}className="area-item">
@@ -96,6 +97,7 @@ function SrvAreas() {
                         </li>
                       ))}
                   </ul>
+                  <h2>Regulación y Cumplimiento</h2>
               </div>
           </div>
       </div>

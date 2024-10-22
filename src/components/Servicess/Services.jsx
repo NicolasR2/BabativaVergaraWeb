@@ -9,7 +9,7 @@ function Services() {
     <div>
       <section className='ctm-title'>
         <div>
-            <p className='Cus-title title' >Conoce a <em> nuestro </em> equipo</p>
+            <h1 className='Cus-title title' >Conoce a <em> nuestro </em> equipo</h1>
         </div>
       </section>
       <section className="section_blue section-intro">
