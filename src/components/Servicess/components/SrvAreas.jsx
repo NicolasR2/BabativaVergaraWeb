@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 const groupedServices = {
   "Asesoramiento Legal": [
-    { id: '/DerLaboral', title: "Derecho Laboral" },
+    { id: 'DerLaboral', title: "Derecho Laboral" },
     { id: 'DerTributario', title: "Derecho Tributario" },
     { id: 'AsesJuridicas', title: "Asesorías Jurídicas" }
   ],
