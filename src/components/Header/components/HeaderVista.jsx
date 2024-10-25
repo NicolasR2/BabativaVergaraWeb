@@ -9,7 +9,7 @@ const links = [
   },
   {
     name: "Nosotros",
-    href: "/About"
+    href: "/Nosotross"
   },
   {
     name: "Servicios",

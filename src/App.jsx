@@ -6,6 +6,7 @@ import Home from './components/Home/Home'
 import Header from './components/Header/Header'
 import Services from './components/Servicess/Services'
 import Nosotross from './components/Nosotros/Nosotross'
+
 import DerLaboral from './components/Servicess/components/descServices/DerLaboral'
 import DerTributario from './components/Servicess/components/descServices/DerTributario'
 import AsesJuridicas from './components/Servicess/components/descServices/AsesJuridicas'
@@ -13,6 +14,7 @@ import AdminCobro from './components/Servicess/components/descServices/AdminCobr
 import PrevResolucion from './components/Servicess/components/descServices/PrevResolucion'
 import Superinten from './components/Servicess/components/descServices/Superinten'
 import DerechoAdmin from './components/Servicess/components/descServices/DerechoAdmin'
+import Footer from './components/Footer/Footer'
 
 
 function App() {
@@ -22,7 +24,8 @@ function App() {
     <Routes>
         <Route path="/" element={<Home/>} />
         <Route path="Services" element={<Services/>} />
-        <Route path="/About" element={<Nosotross/>} />
+        <Route path="Nosotross" element={<Nosotross/>} />
+        
 
         {/*Servicios*/}
         <Route path="/servicios/DerLaboral" element={<DerLaboral/>}/>
@@ -33,6 +36,7 @@ function App() {
         <Route path="/servicios/Superintenl" element={<Superinten/>}/>
         <Route path="/servicios/DerechoAdmin" element={<DerechoAdmin/>}/>
     </Routes>
+    <footer> <Footer/></footer>
     </div>
   )
 }
