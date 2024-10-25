@@ -15,11 +15,22 @@
 }
 
 /*Mapa ficticio*/
-.map{
+.map {
     margin-top: 30px;
     margin-bottom: 30px;
-    display: block;
-    width: 300px;
-    height: 300px;
+    width: 300px; /* Ajusta según lo necesites */
+    height: 300px; /* Ajusta según lo necesites */
     background-color: blanchedalmond;
+    border: 1px solid #ccc; /* Borde para mejorar visibilidad */
+    position: relative; /* Para posicionar la imagen correctamente */
+    overflow: hidden; /* Asegúrate de que no sobresalga la imagen */
+}
+
+.map-image {
+    width: 100%; /* Ocupa todo el ancho del contenedor */
+    height: 100%; /* Ocupa todo el alto del contenedor */
+    object-fit: cover; /* Mantiene la relación de aspecto y recorta si es necesario */
+    position: absolute; /* Superpone dentro del contenedor */
+    top: 0;
+    left: 0;
 }

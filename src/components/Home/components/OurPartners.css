@@ -1,14 +1,80 @@
+/* Reseteo general */
 ul,
 li {
   list-style: none;
   white-space: nowrap;
 }
 
-
-.logos-container-home{
-    display:flex;
-    flex-direction: column;
-    align-items: center;
+/* Contenedor principal */
+.logos-container-home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #ececec; /* Fondo gris claro */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
 }
 
+/* Título */
+.OP_title {
+  font-family: 'Lato', sans-serif; /* Fuente más suave */
+  font-size: 2.2rem; /* Tamaño ajustado */
+  color: #2c3e50;
+  margin-bottom: 20px;
+  font-weight: 600; /* Menos pesado que 700 */
+  letter-spacing: 1.2px; /* Espaciado más ligero */
+}
 
+/* Descripción principal */
+.OP_desc {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.1rem;
+  color: #7f8c8d;
+  max-width: 800px;
+  margin-bottom: 20px;
+  line-height: 1.8;
+  padding: 0 20px;
+}
+
+/* Línea divisoria */
+.linea {
+  width: 100px;
+  height: 4px;
+  background-color:  #007bff;
+  margin: 20px 0;
+}
+
+/* Descripción secundaria */
+.OP_desc_2 {
+  font-family: 'Lato', sans-serif;
+  font-size: 1rem;
+  color: #95a5a6;
+  max-width: 700px;
+  margin-bottom: 30px;
+  line-height: 1.6;
+  padding:  20px;
+}
+
+/* Estilo del botón */
+button {
+  background-color: #2980b9; /* Fondo azul */
+  color: white; /* Texto blanco */
+  padding: 12px 30px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  font-family: 'Roboto', sans-serif; /* Fuente más suave */
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold; /* Texto en negrita */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra del botón */
+}
+
+button:hover {
+  background-color: #1c5980; /* Cambio de color al pasar el ratón */
+  transform: translateY(-3px); /* Efecto de elevación */
+}

@@ -11,7 +11,7 @@ function Performance() {
   return (
     <div className='performance-containe'>
       
-      <h3><span>Campos</span><em>de</em><span>desempeño</span></h3>
+      <h3><span>Campos</span><em> de </em><span>desempeño</span></h3>
 
       <p>Como firma de abogados nos desenvolvemos de distintas formas en el area legal, todo para brindarle un servicio de la mejor calidad a nuestros clientes y asociados.
       Estos son algunos de los campos en los que le podemos brindar ayuda, pulse en <em> Saber mas </em> para profundizar en ellos.</p>
@@ -40,7 +40,7 @@ function Performance() {
         </ul>
       </div>
 
-      <button className='btn btn-performance'> <em> Saber mas </em> </button>
+      <button className='btn-performance'> <em className='btn-performance' > Saber mas </em> </button>
     </div>
   )
 }

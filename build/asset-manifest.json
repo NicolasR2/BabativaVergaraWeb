@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5f5240ea.css",
+    "main.js": "/static/js/main.2fee8d49.js",
+    "static/media/ImagenBogota.jpg": "/static/media/ImagenBogota.8bf837cf5bcf6fc724b2.jpg",
+    "static/media/bgt.jpg": "/static/media/bgt.68016d02ef1fc3e3d42c.jpg",
+    "static/media/ejemploEquipo.jpeg": "/static/media/ejemploEquipo.d972a17424a960567141.jpeg",
+    "static/media/ImagenMateo.jpg": "/static/media/ImagenMateo.896682aa6d44e288b912.jpg",
+    "static/media/ImagenSeria.jpg": "/static/media/ImagenSeria.94af35718b31c2b221ea.jpg",
+    "static/media/LogoDavivienda2.png": "/static/media/LogoDavivienda2.25958c80aa98ff361154.png",
+    "static/media/LogoBancoAgrario.png": "/static/media/LogoBancoAgrario.f031d6a5ff497256163a.png",
+    "static/media/DerechoLaboral.jpg": "/static/media/DerechoLaboral.d49992ef02614097b73d.jpg",
+    "static/media/LogoBancoomeva2.png": "/static/media/LogoBancoomeva2.26f913134e3488e16886.png",
+    "index.html": "/index.html",
+    "main.5f5240ea.css.map": "/static/css/main.5f5240ea.css.map",
+    "main.2fee8d49.js.map": "/static/js/main.2fee8d49.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5f5240ea.css",
+    "static/js/main.2fee8d49.js"
+  ]
+}

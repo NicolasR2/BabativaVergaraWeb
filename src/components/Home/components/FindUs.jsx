@@ -1,6 +1,7 @@
 import React from 'react'
 import "../../Fonts.css"
 import "./FindUs.css"
+import mapImage from '../../../assets/img/mapa.png';
 
 function FindUs() {
   return (
@@ -13,7 +14,9 @@ function FindUs() {
       <a className='fu-country'><em>Bogotá D.C. – Colombia</em></a>
       </div>
       <div className='fu-map'>
-        <div className='map'></div>
+        <div className='map'>
+          <img src={mapImage} alt="Mapa" className="map-image" />
+        </div>
       </div>
     </div>
   )

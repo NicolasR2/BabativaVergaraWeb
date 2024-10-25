@@ -1,44 +1,134 @@
-.info-container{
+/* Contenedor general */
+.performance-containe {
     display: flex;
     flex-direction: column;
-
+    justify-content: center;
     align-items: center;
-    max-width: 400px;
-    text-align: center;
-    white-space: normal;
-
-    margin: 20px;
-
+    padding: 40px 20px;
+    background-color: #f8f9fa; /* Fondo claro */
+    color: #333; /* Texto oscuro */
+    font-family: 'Roboto', sans-serif; /* Fuente moderna */
 }
 
-.container-services{
+/* Título */
+.performance-containe h3 {
+    font-size: 2.2rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #004085; /* Azul profesional */
+}
+
+.performance-containe h3 span {
+    color: #007bff; /* Azul llamativo */
+}
+
+.performance-containe h3 em {
+    font-style: italic;
+    color: #343a40; /* Gris oscuro */
+}
+
+/* Descripción */
+.performance-containe p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    max-width: 800px;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #555;
+}
+
+/* Contenedor de servicios */
+.container-services {
     width: 100%;
     display: flex;
-    justify-content: center;
-    
-}
-
-.services1{
-    margin-right: 200px;
-}
-
-li .info-container {
-    text-align: center;
-    display: block;
-}
-
-.main-info-container{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
     justify-content: space-evenly;
-
-    
+    flex-wrap: wrap;
+    margin-bottom: 40px;
 }
 
-.performance-containe{
+/* Lista de servicios */
+.main-info-container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    margin: 0 20px;
+}
+
+/* Elementos de la lista */
+.info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 300px; /* Ajusta el tamaño máximo de la tarjeta */
+    width: 100%; /* Asegura que no se desborde */
+    text-align: center;
+    white-space: normal;
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    overflow-wrap: break-word; /* Hace que las palabras largas se ajusten */
+}
+
+.info-container:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Iconos */
+.icon {
+    font-size: 2.5rem;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+/* Título de servicio */
+.service-title {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #004085;
+    margin-bottom: 8px;
+}
+
+/* Descripción de servicio */
+.service-desc {
+    font-size: 1rem;
+    color: #6c757d;
+}
+
+/* Botón */
+.btn-performance {
+    background-color: #007bff; /* Fondo azul */
+    color: white ; /* Texto blanco */
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn-performance:hover {
+    background-color: #0056b3;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+
+@media (max-width: 768px) {
+    .container-services {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main-info-container {
+        margin-bottom: 20px;
+    }
+
+    .services1, .services2 {
+        margin-right: 0;
+    }
 }
