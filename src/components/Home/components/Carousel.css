@@ -101,13 +101,11 @@ div.inactive {
 .texts {
   position: absolute;
   top: 20px; /* Ajusta la posición vertical si es necesario */
-  left: 50%; /* Centrar horizontalmente */
-  transform: translateX(-50%); /* Centrar correctamente */
-  text-align: left; /* Alinear el texto al centro */
-  padding: 10px 20px; /* Agregar espacio alrededor del texto */
-  background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco semi-transparente para el texto */
-  border-radius: 10px; /* Bordes redondeados */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */
+  left: 20px; /* Mueve el texto hacia la izquierda */
+  text-align: left; /* Alinear el texto a la izquierda */
+  padding: 10px 15px; /* Agregar espacio alrededor del texto */
+  border-radius: 10px; /* Bordes redondeados (opcional) */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para darle profundidad */
   z-index: 2; /* Asegúrate de que el texto esté sobre las imágenes */
 }
 
